@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfolio</title>
+    <link rel="stylesheet" href=estilo.css>
+    <script src="codigo.js"></script> 
+
+</head>
+<body>
+    <!-- Aqui é o menu -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-section="sobre">Sobre mim</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-section="portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-section="formacao">Formação</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-section="contato">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Parte Principal, Sobre Mim -->
+    <main class="main-content">
+        <section id="sobre" class="content-section active">
+            <div class="container">
+                <h1>Sobre Mim</h1>
+                <div class="content-area">
+                    <p>Me chamo Roberto Gomes Baleeiro Junior - RU 4786846.
+                        </p>
+                    <p>Meus Hobbys envolve passeios, ler e jogar tanto RPG quanto outros jogos.</p>    
+                    <!-- Primeiro requisito ^ -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio -->
+        <section id="portfolio" class="content-section">
+            <div class="container">
+                <h1>Portfolio</h1>
+                <div class="content-area">
+                    <p>Meu primeiro site. Não há outros projetos que eu queria mostrar aqui também.</p>
+                    <!-- Segundo requisito ^-->
+                </div>
+            </div>
+        </section>
+
+        <!-- Formação -->
+        <section id="formacao" class="content-section">
+            <div class="container">
+                <h1>Formação</h1>
+                <div class="content-area">
+                    <p>Me formei no Ensino Medio em Porto Seguro - Bahia, e atualmente curso Analise e Desenvolvimento de Softwares na Uninter.
+                        Tenho diploma em cursos dos seguintes idiomas: Inglês e Espanahol.
+                        </p>
+                    <p> <a href="https://www.linkedin.com/in/roberto-gomes-615b382b8/">linkedin</a></p>
+                    <!-- Terceiro requisito ^ -->
+                </div>
+            </div>
+        </section>
+
+        <!--  Contato -->
+          <section id="contato" class="content-section">
+            <div class="container">
+                <h1>Contato</h1>
+                <div class="content-area">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nome:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensagem:</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
+
